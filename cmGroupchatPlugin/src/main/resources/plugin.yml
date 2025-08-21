@@ -1,0 +1,48 @@
+name: CmGroupchatPlugin
+version: '${project.version}'
+main: me.scohill.groupchatcm.cmgroupchatplugin.CmGroupchatPlugin
+api-version: 1.17
+authors: [ Scohill ]
+description: A groupchat plugin specifically made for cm
+website: mc.craftmine.co.uk
+commands:
+  g:
+    description: Send a message in your current groupchat
+  gccreate:
+    aliases: [gcreate,gcc]
+    description: Creates a groupchat,
+  gcinvite:
+    aliases: [ginvite,ginv,gi]
+    description: Invites a player to the groupchat
+  gcselect:
+    aliases: [gsel]
+    description: Select a groupchat to chat in
+  gclist:
+    description: Lists all groupchats
+  gcmylist:
+    description: Lists all your groupchats
+  gctypeset:
+    description: Set the type of the groupchat (public or private)
+  gcleave:
+    description: Leave the current groupchat
+  gcsetowner:
+    description: Change ownership
+  gckick:
+    description: Kick a player from your groupchat
+  gctoggle:
+    description: Toggle between groupchat and public chat
+  gcdelete:
+    description: Delete a groupchat
+  gcinvite gcaccept:
+    description: Accept a groupchat invitation(must add name of gc)
+  gcinvite gcdecline:
+    description: Decline a groupchat invitation
+  gcjoin:
+    description: Join a public groupchat
+  gchelp:
+    aliases: [help cmgroupchatplugin]
+    description: Command list
+  gcreload:
+    description: Reload the plugin
+  gcsocialspy:
+    description: Staff groupchat social spy

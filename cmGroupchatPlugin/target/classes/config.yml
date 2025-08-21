@@ -1,0 +1,44 @@
+# Please fill out this file with the required data, always leave a space between ":" and the data specified
+# Color names must be from the list below written in capital letters
+
+# AQUA
+# BLACK
+# BLUE
+# DARK_AQUA
+# DARK_BLUE
+# DARK_GRAY
+# DARK_GREEN
+# DARK_PURPLE
+# DARK_RED
+# GOLD
+# GRAY
+# GREEN
+# LIGHT_PURPLE
+# RED
+# WHITE
+# YELLOW
+
+#log-gcmsgs-in-console: default: TRUE         ****** toggle logging groupchat msgs to console
+#gcplayernamecolor: default: GREEN            ****** the player name color when sending a message in a groupchat
+#gcnamecolor: default: BLUE                   ****** the default groupchat name color
+#gctextcolor: default: LIGHT_PURPLE           ****** the message text color
+#success-msg-main-color: default: DARK_PURPLE ****** color of the main text body that shows after successful execution message
+#names-in-success-msgs-color: default: GREEN  ****** groupchat and player names when shown in a successful execution message
+#error-msg-main-color: default: RED           ****** color of the main text body that shows after wrong or failed execution message
+#name-in-error-msg-color: default: RED        ****** groupchat and player names when shown in wrong or failed execution message
+
+host: localhost
+port: 3306
+database: cmgroupchat
+username: root
+password: ""
+log-gcmsgs-in-console: TRUE
+gcplayernamecolor: GREEN
+gcnamecolor: BLUE
+gctextcolor: LIGHT_PURPLE
+success-msg-main-color: DARK_PURPLE
+names-in-success-msgs-color: GREEN
+error-msg-main-color: RED
+name-in-error-msg-color: RED
+
+
